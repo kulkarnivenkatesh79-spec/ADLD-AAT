@@ -1,0 +1,71 @@
+$date
+    Oct 30, 2026  11:56:04
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ps
+$end
+
+$scope module test_counter $end
+$var reg       4 !    d [3:0] $end
+$var wire      1 "    p_bit  $end
+$var reg       4 #    c_data [3:0] $end
+$var reg       1 $    c_p  $end
+$var wire      1 %    err  $end
+
+$scope module uut $end
+$var wire      4 &    d [3:0] $end
+$var wire      1 "    p_bit  $end
+$var wire      4 '    c_data [3:0] $end
+$var wire      1 (    c_p  $end
+$var wire      1 %    err  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+0"
+b0 #
+0$
+0%
+b0 &
+b0 '
+0(
+$end
+#10000
+b1 !
+b1 #
+1$
+1(
+b1 '
+b1 &
+1"
+#20000
+b1010 !
+b1010 #
+0$
+0(
+b1010 '
+b1010 &
+0"
+#30000
+b1111 !
+b1111 #
+1$
+1(
+b1111 '
+b1111 &
+1%
+#40000
+b1101 !
+b1101 #
+0$
+0(
+b1101 '
+b1101 &
+1"
+#50000

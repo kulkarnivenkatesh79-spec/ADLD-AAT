@@ -1,0 +1,6 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+ncsim: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+ncsim> run
+Simulation complete via $finish(1) at time 50 NS + 0
+./tb/test_counter.v:53     $finish;
+ncsim> exit
