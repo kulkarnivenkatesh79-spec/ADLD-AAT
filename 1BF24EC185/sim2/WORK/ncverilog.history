@@ -1,0 +1,2 @@
+s1(30Oct2026:12:46:20):  ncverilog +access+r ../RTL/ring.counter.v ../tb/tb_ring.v 
+s2(30Oct2026:12:48:19):  ncverilog +access+r ../RTL/ring_counter.v ../tb/tb_ring.v 
