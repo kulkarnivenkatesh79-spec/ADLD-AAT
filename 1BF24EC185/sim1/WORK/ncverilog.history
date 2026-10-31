@@ -1,0 +1,1 @@
+s1(30Oct2026:11:39:00):  ncverilog +access+r ../RTL/parity_4bit.v ../tb/test_counter.v 

@@ -1,0 +1,77 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Oct 30, 2026 at 11:39:00 IST
+ncverilog
+	+access+r
+	../RTL/parity_4bit.v
+	../tb/test_counter.v
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncvlog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncvlog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+file: ../RTL/parity_4bit.v
+	module worklib.parity_gen_chk:v
+		errors: 0, warnings: 0
+file: ../tb/test_counter.v
+	module worklib.test_counter:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncelab: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncelab: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+ncelab: *W,DLLSVW: Unable to list the views of rfLib.rfLib (System error).
+parity_4bit uut (d, p_bit, c_data, c_p, err);
+              |
+ncelab: *E,CUVMUR (../tb/test_counter.v,3|14): instance 'test_counter.uut' of design unit 'parity_4bit' is unresolved in 'worklib.test_counter:v'.
+ncverilog: *E,ELBERR: Error during elaboration (status 1), exiting.
+TOOL:	ncverilog	15.20-s086: Exiting on Oct 30, 2026 at 11:39:02 IST  (total: 00:00:02)
